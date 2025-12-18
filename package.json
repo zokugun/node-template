@@ -1,0 +1,57 @@
+{
+	"name": "@zokugun/template",
+	"description": "Fast template engine forked from doT with extended and extendable tags & cache plugin",
+	"version": "0.0.0",
+	"author": {
+		"name": "Baptiste Augrain",
+		"email": "daiyam@zokugun.org"
+	},
+	"license": "MIT",
+	"homepage": "https://github.com/zokugun/node-template",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/zokugun/node-template.git"
+	},
+	"bugs": {
+		"url": "https://github.com/zokugun/node-template/issues"
+	},
+	"type": "module",
+	"main": "lib/index.js",
+	"scripts": {
+		"commit": "cz",
+		"compile": "tsc -p src",
+		"lint": "xo",
+		"prepare": "husky; fixpack || true",
+		"prepublishOnly": "npm run compile",
+		"release": "release-it",
+		"test": "vitest --watch=false",
+		"watch:source": "tsc-watch -p src",
+		"watch:test": "vitest"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^19.7.1",
+		"@commitlint/config-conventional": "^19.7.1",
+		"@types/chai": "^5.0.1",
+		"@types/glob": "^8.1.0",
+		"@types/node": "^20.14.8",
+		"chai": "^5.2.0",
+		"commitizen": "^4.3.1",
+		"eslint-plugin-chai-friendly": "^1.0.1",
+		"fixpack": "^4.0.0",
+		"glob": "^13.0.0",
+		"husky": "^9.1.7",
+		"lint-staged": "^16.1.4",
+		"release-it": "^18.1.2",
+		"source-map-support": "^0.5.21",
+		"tsc-watch": "^6.3.0",
+		"typescript": "^5.7.3",
+		"vitest": "^4.0.16",
+		"xo": "0.60.0"
+	},
+	"keywords": [
+		"template",
+		"templating",
+		"zokugun"
+	],
+	"since": "2013-02-28"
+}

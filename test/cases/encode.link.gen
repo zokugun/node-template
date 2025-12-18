@@ -1,0 +1,3 @@
+function(escape,it) {
+var out='<div> Encoding <a href="'+escape(it.url)+'"></a> </div>\n';return out;
+}
