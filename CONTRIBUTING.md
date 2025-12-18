@@ -13,12 +13,12 @@ This document is intended for anyone considering opening an **issue**, **discuss
 #### Table Of Contents
 
 - [Code of Conduct](#code-of-conduct)
-- [Users are not allowed to create Issues directly](#reporting-bugs)
-- [I have a bug! / Something isn't working](#making-changes)
-- [I have an idea for a feature]()
-- [I want to make changes]()
-- [Spread the word]()
-- [Support the project financially]()
+- [Users are not allowed to create Issues directly](#users-are-not-allowed-to-create-issues-directly)
+- [I have a bug! / Something isn't working](#i-have-a-bug--something-isnt-working)
+- [I have an idea for a feature](#i-have-an-idea-for-a-feature)
+- [I want to make changes](#i-want-to-make-changes)
+- [Spread the word](#spread-the-word)
+- [Support the project financially](#support-the-project-financially)
 
 ## Code of Conduct
 
@@ -32,8 +32,8 @@ This project **does not use the issue tracker for discussion or feature requests
 
 Any Discussion which clearly identifies a problem and can be confirmed or reproduced will be converted to an Issue by a maintainer, so as a user finding a valid problem you don't do any extra work anyway. Thank you.
 
-[Discussion]: https://github.com/ghostty-org/ghostty/discussions
-[discussions]: https://github.com/ghostty-org/ghostty/discussions
+[Discussion]: https://github.com/zokugun/node-template/discussions
+[discussions]: https://github.com/zokugun/node-template/discussions
 
 ## I have a bug! / Something isn't working
 
@@ -52,15 +52,15 @@ If your issue hasn't been reported already, open an ["Issue Triage"] discussion 
 >
 > Please make sure that you _only_ use the "Issue Triage" category for reporting bugs — thank you!
 
-[closed issues]: https://github.com/ghostty-org/ghostty/issues?q=is%3Aissue%20state%3Aclosed
-[closed discussions]: https://github.com/ghostty-org/ghostty/discussions?discussions_q=is%3Aclosed
-["Issue Triage"]: https://github.com/ghostty-org/ghostty/discussions/new?category=issue-triage
+[closed issues]: https://github.com/zokugun/node-template/issues?q=is%3Aissue%20state%3Aclosed
+[closed discussions]: https://github.com/zokugun/node-template/discussions?discussions_q=is%3Aclosed
+["Issue Triage"]: https://github.com/zokugun/node-template/discussions/new?category=issue-triage
 
 ## I have an idea for a feature
 
 Like bug reports, first search through both issues and discussions and try to find if your feature has already been requested. Otherwise, open a discussion in the ["Feature Requests, Ideas"] category.
 
-["Feature Requests, Ideas"]: https://github.com/ghostty-org/ghostty/discussions/new?category=feature-requests-ideas
+["Feature Requests, Ideas"]: https://github.com/zokugun/node-template/discussions/new?category=feature-requests-ideas
 
 ## I want to make changes
 
