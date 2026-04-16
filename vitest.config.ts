@@ -1,8 +1,8 @@
 import { defineConfig } from 'vitest/config';
 
 export default defineConfig({
-	esbuild: {
-		target: 'es2022',
+	oxc: {
+		target: 'es2022'
 	},
 	test: {
 		environment: 'node',
@@ -10,5 +10,10 @@ export default defineConfig({
 		typecheck: {
 			enabled: true,
 		},
+		include: ['./test/**/*.test.ts'],
+		coverage: {
+			reporter: ['html'],
+			reportsDirectory: './coverage'
+		}
 	},
 });

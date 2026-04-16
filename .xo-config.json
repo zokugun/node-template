@@ -75,6 +75,14 @@
 		],
 		"@typescript-eslint/no-confusing-void-expression": "off",
 		"@typescript-eslint/no-dynamic-delete": "off",
+		"@typescript-eslint/no-empty-function": [
+			"error",
+			{
+				"allow": [
+					"arrowFunctions"
+				]
+			}
+		],
 		"@typescript-eslint/no-inferrable-types": "off",
 		"@typescript-eslint/no-namespace": "off",
 		"@typescript-eslint/object-curly-spacing": [
@@ -126,6 +134,7 @@
 		"no-lonely-if": "off",
 		"no-negated-condition": "off",
 		"object-curly-newline": "off",
+		"object-shorthand": "off",
 		"one-var": [
 			"error",
 			"never"
@@ -143,6 +152,7 @@
 			"error",
 			{
 				"replacements": {
+					"arg": false,
 					"args": false,
 					"dir": false,
 					"err": false,
@@ -150,7 +160,10 @@
 					"func": false,
 					"i": false,
 					"j": false,
-					"pkg": false
+					"mod": false,
+					"num": false,
+					"pkg": false,
+					"str": false
 				}
 			}
 		]
@@ -162,8 +175,7 @@
 		{
 			"files": "**/*.test.ts",
 			"rules": {
-				"@typescript-eslint/no-unused-expressions": "off",
-				"chai-friendly/no-unused-expressions": "error"
+				"@typescript-eslint/no-unused-expressions": "off"
 			}
 		}
 	]
