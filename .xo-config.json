@@ -4,6 +4,17 @@
 		"*.config.ts",
 		"test/fixtures"
 	],
+	"overrides": [
+		{
+			"files": "**/*.test.ts",
+			"rules": {
+				"@typescript-eslint/no-unused-expressions": "off"
+			}
+		}
+	],
+	"plugins": [
+		"chai-friendly"
+	],
 	"rules": {
 		"@typescript-eslint/ban-types": "off",
 		"@typescript-eslint/brace-style": [
@@ -90,6 +101,12 @@
 			"always"
 		],
 		"@typescript-eslint/parameter-properties": "off",
+		"@typescript-eslint/prefer-nullish-coalescing": [
+			"error",
+			{
+				"ignoreConditionalTests": true
+			}
+		],
 		"@typescript-eslint/prefer-promise-reject-errors": "off",
 		"@typescript-eslint/return-await": "off",
 		"arrow-parens": [
@@ -163,20 +180,10 @@
 					"mod": false,
 					"num": false,
 					"pkg": false,
-					"str": false
+					"str": false,
+					"temp": false
 				}
 			}
 		]
-	},
-	"plugins": [
-		"chai-friendly"
-	],
-	"overrides": [
-		{
-			"files": "**/*.test.ts",
-			"rules": {
-				"@typescript-eslint/no-unused-expressions": "off"
-			}
-		}
-	]
+	}
 }
