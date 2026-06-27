@@ -12,9 +12,6 @@
 			}
 		}
 	],
-	"plugins": [
-		"chai-friendly"
-	],
 	"rules": {
 		"@typescript-eslint/ban-types": "off",
 		"@typescript-eslint/brace-style": [
